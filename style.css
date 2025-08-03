@@ -1,16 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-
 body {
     background-color: #fdfdfd;
 }
-
 .wrapper {
     width: 100%;
     height: 100vh;
@@ -39,19 +36,15 @@ body {
 .card[for="c1"] {
     background-image: url(img1.jpg);
 }
-
 .card[for="c2"] {
     background-image: url(img2.jpg);
 }
-
 .card[for="c3"] {
     background-image: url(img3.jpg);
 }
-
 .card[for="c4"] {
     background-image: url(img4.jpg);
 }
-
 .card[for="c5"] {
     background-image: url(img5.jpg);
 }
@@ -62,7 +55,6 @@ body {
 input:checked + label {
     width: 600px;
 }
-
 .icon {
     background-color: #ab222a;
     color: #fff;
@@ -74,12 +66,10 @@ input:checked + label {
     justify-content: center;
     align-items: center;
     margin: 15px;
-
 }
 input {
     display: none;
 }
-
 .description {
     display: flex;
     justify-content: center;
@@ -91,17 +81,13 @@ input {
     transform: translateY(40px);
     transition-delay: 3s;
     transition: all .3s ease;
-
 }
 input:checked + label .description {
     opacity: 1 !important;
     transform: translateY(0px) !important;
-
 }
-
 input:checked + label .row {
     backdrop-filter: blur(5px);
-
 }
 h4 {
     text-transform: uppercase;
